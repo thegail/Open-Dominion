@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F54050E26A673DA004BF4C8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54050D26A673DA004BF4C8 /* main.swift */; };
+		9F084DE626A6760F0069E93C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F084DE526A6760F0069E93C /* Card.swift */; };
+		9F084DE826A676400069E93C /* Prosperity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F084DE726A676400069E93C /* Prosperity.swift */; };
+		9F084DEC26A676610069E93C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F084DEB26A676610069E93C /* Game.swift */; };
+		9F084DEE26A6767F0069E93C /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F084DED26A6767F0069E93C /* Dashboard.swift */; };
+		9F54051826A67515004BF4C8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54051626A67515004BF4C8 /* Player.swift */; };
+		9F54051A26A67524004BF4C8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54051926A67524004BF4C8 /* main.swift */; };
+		9F54052026A67531004BF4C8 /* GameRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54051D26A67531004BF4C8 /* GameRules.swift */; };
+		9F54052126A67531004BF4C8 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54051E26A67531004BF4C8 /* Usage.swift */; };
+		9F54052626A6753C004BF4C8 /* Dominion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54052426A6753C004BF4C8 /* Dominion.swift */; };
+		9F54052D26A67545004BF4C8 /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54052A26A67545004BF4C8 /* CardType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +32,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9F084DE526A6760F0069E93C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9F084DE726A676400069E93C /* Prosperity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prosperity.swift; sourceTree = "<group>"; };
+		9F084DEB26A676610069E93C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		9F084DED26A6767F0069E93C /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 		9F54050A26A673DA004BF4C8 /* Open Dominion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Open Dominion"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F54050D26A673DA004BF4C8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9F54051626A67515004BF4C8 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9F54051926A67524004BF4C8 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9F54051D26A67531004BF4C8 /* GameRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRules.swift; sourceTree = "<group>"; };
+		9F54051E26A67531004BF4C8 /* Usage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usage.swift; sourceTree = "<group>"; };
+		9F54052426A6753C004BF4C8 /* Dominion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dominion.swift; sourceTree = "<group>"; };
+		9F54052A26A67545004BF4C8 /* CardType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +75,50 @@
 		9F54050C26A673DA004BF4C8 /* Open Dominion */ = {
 			isa = PBXGroup;
 			children = (
-				9F54050D26A673DA004BF4C8 /* main.swift */,
+				9F54051926A67524004BF4C8 /* main.swift */,
+				9F54052726A67545004BF4C8 /* Card */,
+				9F54052226A6753C004BF4C8 /* Dominion */,
+				9F54051B26A67531004BF4C8 /* Game */,
+				9F54051426A67515004BF4C8 /* Player */,
 			);
 			path = "Open Dominion";
+			sourceTree = "<group>";
+		};
+		9F54051426A67515004BF4C8 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				9F54051626A67515004BF4C8 /* Player.swift */,
+				9F084DED26A6767F0069E93C /* Dashboard.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		9F54051B26A67531004BF4C8 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				9F54051D26A67531004BF4C8 /* GameRules.swift */,
+				9F084DEB26A676610069E93C /* Game.swift */,
+				9F54051E26A67531004BF4C8 /* Usage.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		9F54052226A6753C004BF4C8 /* Dominion */ = {
+			isa = PBXGroup;
+			children = (
+				9F54052426A6753C004BF4C8 /* Dominion.swift */,
+				9F084DE726A676400069E93C /* Prosperity.swift */,
+			);
+			path = Dominion;
+			sourceTree = "<group>";
+		};
+		9F54052726A67545004BF4C8 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				9F54052A26A67545004BF4C8 /* CardType.swift */,
+				9F084DE526A6760F0069E93C /* Card.swift */,
+			);
+			path = Card;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +178,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F54050E26A673DA004BF4C8 /* main.swift in Sources */,
+				9F54051826A67515004BF4C8 /* Player.swift in Sources */,
+				9F084DEC26A676610069E93C /* Game.swift in Sources */,
+				9F084DEE26A6767F0069E93C /* Dashboard.swift in Sources */,
+				9F54051A26A67524004BF4C8 /* main.swift in Sources */,
+				9F54052026A67531004BF4C8 /* GameRules.swift in Sources */,
+				9F54052626A6753C004BF4C8 /* Dominion.swift in Sources */,
+				9F084DE826A676400069E93C /* Prosperity.swift in Sources */,
+				9F084DE626A6760F0069E93C /* Card.swift in Sources */,
+				9F54052126A67531004BF4C8 /* Usage.swift in Sources */,
+				9F54052D26A67545004BF4C8 /* CardType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
